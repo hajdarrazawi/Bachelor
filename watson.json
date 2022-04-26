@@ -1,1 +1,6 @@
-
+curl -X POST -u "apikey:{5Ah74CpdNPRebowdTrc2URS-PusYr5tySgNV_u4vmNBL}" \
+--header "Content-Type: application/json" \
+--data "{\"text\":\"hello world has sad ed ed dw d Sex wax \“}“ \
+--output hello_world3.ogg \
+"{https://api.eu-de.text-to-speech.watson.cloud.ibm.com/instances/e0154ed8-282c-4cb1-ada4-484adca21ba6}/v1/synthesize"
+ 
